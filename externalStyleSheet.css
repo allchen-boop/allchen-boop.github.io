@@ -1,11 +1,11 @@
 .navbar-top {
-	background-color:#5B9BD5;
+	background-color:#F7CEDD;
 	background-image:none;
 	border:0px;
 }
 
 .navbar-sidebar {
-	background-color:#5B9BD5;
+	background-color:#F7CEDD;
 	background-image:none;
 	border:0px;
 	height:100%;
@@ -26,7 +26,7 @@
 }
 
 .nav-pills .nav-item .nav-link {
-	color:#c6e2ff;
+	color:#FFD0BE;
 	font-family:'Inconsolata', sans-serif;
 	font-size:16px;
 	text-align:center;
@@ -38,7 +38,7 @@
 .nav-pills .nav-link.active:hover {
 	color:#fff;
 	cursor:pointer;
-	background-color:#63b8ff
+	background-color:#F7CEDD
 }
 
 @media (max-width:768px) {
@@ -54,13 +54,13 @@
 	}
 
 	.navbar-inverse .navbar-collapse .nav-item .nav-link {
-		color:#c6e2ff;
+		color:#FFD0BE;
 		font-family:'Inconsolata', sans-serif;
 		font-size:16px;
 	}
 
 	.navbar-inverse .navbar-toggler .nav-item .nav-link {
-		color:#c6e2ff;
+		color:#FFD0BE;
 		font-family:'Inconsolata', sans-serif;
 		font-size:16px;
 		padding-top:10px;
@@ -252,16 +252,16 @@ button:hover {
 	margin:20px;
 	font-family:'Inconsolata',sans-serif;
 	text-align:center;
-	color:#c6e2ff;
+	color:#F7CEDD;
 }
 
 .subtitle .sublink {
-	color:#c6e2ff;
+	color:#F7CEDD;
 	text-decoration:none;
 }
 
 .subtitle .sublink:visited {
-	color:#c6e2ff;
+	color:#F7CEDD;
     text-decoration:none;
 }
 
