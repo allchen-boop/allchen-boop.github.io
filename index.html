@@ -1,189 +1,225 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>ALLISON CHEN</title>
+	<title> Susan Xie </title>
+	
+	<meta charset="utf-8">
+	<meta name="keywords" content="Susan Xie, DMD, digital media design, computer graphics, UPenn,
+		University of Pennsylvania, code, art, design">
+	<meta name="description" content="Hello! My name is Susan, and I am a Digital Media Design student at the University of Pennsylvania. 
+		This is a collection of some of my work.">
+	<meta name="author" content="Susan Xie">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Reference Links:-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="externalStyleSheet.css">
+	<link rel="shortcut icon" href="Logo.ico">
+	
+	<!--Google Fonts:-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
 
-  <!-- METADATA
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="description" content="Work">
-  <meta name="author" content="Allison<3">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONTS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <!-- animsition.css -->
-  <link rel="stylesheet" href="css/animsition.min.css">
-
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-   <!-- jQuery -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-   <!-- animsition.js -->
-   <script src="js/animsition.min.js"></script>
-   <script src="js/scripts.js"></script>
-
-  <!-- Favicon
-  ––––––––––––––––––––––––––––––––––––––––––––––––––
-  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/> -->
-
+	<!--JavaScript-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	
 </head>
 
-<!-- In PROGRESS
-<body class="interim-body">
-	<div id="interim">
-		<h1>in progress</h1>
-		<img src="img/corgi.gif">
-	</div>
-</body>
+<body class="background" data-spy="scroll" data-target="#myNavbar" data-offset="400">
 
--->
-<body class="animsition">
-	<div id="top-bar"></div>	
-	<div id="hero" class="wrapper">
-		<h1>allison chen</h1>
-		<div class="inner-wrapper">
-			<img src="icon.png" alt="icon" width="500" height="300" class="center">
-			<p>I'm Allison and I am currently a junior at the University of Pennsylvania majoring in Digital Media Design and minoring in Fine Arts and English. </p>
-    			<p>I am passionate about the intersection of design and tech, finding art through code. My interests lie in computer graphics and animation and UI/UX design.</p>
-    			<p>In my free time, I am an avid movie watcher, gym goer, and food eater!</p>
-			<p>Currently seeking an internship for summer 2022!<span id="circle"></span></p>
+	<!-- Sidebar Navigation -->
+	<nav class="nav flex-column d-none d-md-flex navbar-sidebar">
+		<a class="navbar-brand" href="#top" id="return">
+			<img src="Logo.png" width="80px"/>
+		</a>
+		<div style="display:block">
+			<ul id="myNavbar" class="nav flex-column nav-pills">
+				<li class="nav-item"> <a class="nav-link" href="#about" id="return"> About </a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#demo-reel" id="return"> Demo Reel </a> </li>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio" aria-controls="portfolio" aria-expanded="false" aria-label="Toggle navigation">
+					<li class="nav-item"> <a class="nav-link"> Portfolio </a> </li>
+				</button>
+				<div class="collapse navbar-collapse" id="portfolio">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" style="font-size:14px" href="Portfolio/Code.html"> 
+								Code 
+							</a>
+						</li>
+						<li class="nav-item"> 
+							<a class="nav-link" style="font-size:14px" href="Portfolio/3D.html"> 
+								Modeling &<br/>Simulation 
+							</a> 
+						</li>
+						<li class="nav-item"> 
+							<a class="nav-link" style="font-size:14px" href="Portfolio/Art.html"> 
+								Art & Design 
+							</a> 
+						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" style="font-size:14px" href="Portfolio/Web.html"> 
+								Web Dev 
+							</a>
+						</li> -->
+						<!-- <li class="nav-item">
+							<a class="nav-link" style="font-size:14px" href="Portfolio/Progress.html"> 
+								In Progress 
+							</a>
+						</li> -->
 
-			<a href="projects/resume jun fall.pdf" target="_blank"><div class="button">
-				<p>> résumé</p>
-			</div></a>
-			<div  class="button" id="contact-button">
-				<p id="contact-text">> get in touch</p>
-			</div></a>
+					</ul>
+				</div>
+			</ul>
 		</div>
+	</nav>
+	
+	<!-- Horizontal Navigation-->
+	<nav class="navbar-top fixed-top d-inline-block d-md-none navbar navbar-inverse">
+		<a class = "navbar-brand" href = "#top">
+			<img src = "Logo.png" width = "40px"/>
+		</a> 
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"> <a class="nav-link" href="#about"> About </a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#demo-reel"> Demo Reel </a> </li>
+				<button class="navbar-toggler" style="padding:0px" type="button" data-toggle="collapse" data-target="#dropdown" aria-controls="dropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<li class="nav-item"> <a class="nav-link" id="portfolio-button"> Portfolio </a> </li>
+				</button>
+				<div class="collapse navbar-collapse" id="dropdown">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" style="font-size:14px" href="Portfolio/Code.html"> 
+								Code 
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" style="font-size:14px" href="Portfolio/3D.html"> 
+								Modeling & Simulation 
+							</a> 
+						</li>
+						<li class="nav-item"> 
+							<a class="nav-link" style="font-size:14px" href="Portfolio/Art.html"> 
+								Art & Design 
+							</a> 
+						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" style="font-size:14px" href="Portfolio/Web.html"> 
+								Web Dev  
+							</a>
+						</li> -->
+						<!-- <li class="nav-item">
+							<a class="nav-link" style="font-size:14px;padding-bottom:10px" href="Portfolio/Progress.html"> 
+								In Progress 
+							</a>
+						</li> -->
 
-		<ul>
-			<li><a href="https://www.linkedin.com/in/allchen/" target="_blank">
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-linkedin-square  fa-stack-1x fa-inverse"></i>
-			</a></li>
+					</ul>
+				</div>
+			</ul>
+		</div>
+	</nav>
 
-			<li><a href="https://github.com/allchen-boop" target="_blank">
-				<span class="fa-stack fa-lg">
-  					<i class="fa fa-circle fa-stack-2x"></i>
- 					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-				</span>
-			</a></li>
-		</ul>
-
-	</div>
-
-	<div id="projects" class="wrapper">
-		<div class="yellow-marker"></div>
-		<h1>recent projects</h1>
-
-		<div class="inner-wrapper">
-			<a class="project-button animsition-link" href="projects/the-opportunity-project.html"><div class="project-container">
-				<h1>Mini Minecraft</h1>
-				<h2>C++/OpenGL</h2>
-				<p>Collaborated with two teammates to remake Minecraft   ></p>
-			</div></a>
-
-			<a class="project-button animsition-link" href="projects/i-america.html"><div class="project-container">
-				<h1>Mini Maya</h1>
-				<h2>C++/OpenGL</h2>
-				<p>Remade Autodesk Maya   ></p>
-			</div></a>
-
-			<a class="project-button animsition-link" href="projects/census.html"><div class="project-container">
-				<h1>Census for Small Businesses</h1>
-				<h2>U.S. Census Bureau</h2>
-				<p>Create a user-centered space on census.gov   ></p>
-			</div></a>
-
-			<a class="project-button animsition-link" href="projects/prynt.html"><div class="project-container">
-				<h1>Ecommerce Redesign</h1>
-				<h2>Prynt Co.</h2>
-				<p>Reconceptualize the shop experience to allow for multi-page navigation   ></p>
-			</div></a>
-
+	<div class="main" id="main"> 
+	
+	<div id="home">
+	<!-- Landing Page -->
+	<div class="cover container-fluid" id = "top">
+		<div id="landing">
+			<h1 class="title">
+				susan xie
+			</h1>
+			<h1 class="subtitle">
+				<a href="https://www.linkedin.com/in/susan-xie" target="_blank" class="sublink"> 
+					linkedin</a> &ensp; &#8226; &ensp;
+				<a href="Resume_SusanXie.pdf" class="sublink"
+					target="_blank">resume</a> 
+			</h1>
+		</div>
+		<div class="down-arrow"> 
+			<img width=60vw src="Arrow.png"/>
 		</div>
 	</div>
+	
+	<div class = "body">
 
-	<div id="projects" class="wrapper">
-		<div class="yellow-marker"></div>
-		<h1>art</h1>
+	<!-- About -->
+	<div class="container" id="about">
+		<div style="padding-top:5vw">
+			<div class="d-lg-none">
+				<h1 class="greeting">
+					<img width=200vw src="Bio_Paint2.png"/>
+				</h1>
+				<h1 class="greeting" style="margin-bottom:5px;color:#ff7fab;">Hello!</h1>
+				<h1 class="subtitle" style="margin:0px;color:#5B9BD5;font-size:18px"> 
+					My name is Susan Xie. <br/> I enjoy art, tech, and design. 
+				</h1>
+			</div>
+			<div class="d-none d-lg-inline" style="text-align:center"> 
+				<div class="row row-website"> 
+					<div class="col-lg-2"> </div>
+					<div class="col-lg-3">
+							<img width=100% src="Bio_Paint2.png"/>
+					</div>
+					<div style="margin-top:auto; margin-bottom:auto" class="col-lg-5">
+						<h1 class="greeting" style="margin-bottom:5px;color:#ff7fab;">Hello!</h1>
+						<h1 class="subtitle" style="margin:0px;color:#5B9BD5;font-size:1.5vw"> 
+							My name is Susan Xie. <br/> I enjoy art, tech, and design. 
+						</h1>
+					</div>
+				</div>
+			</div>
+
+			<p class = "bio" style="text-align:left"> 
+				I am currently an Engineering student at the University of Pennsylvania. 
+				I study computer graphics and am interested in the technology behind 3D and animation. 
+				In my free time, I enjoy drawing, playing piano, and spending time with my friends and family.
+			</p>
+		</div>
+	</div>
+	
+	<!-- Demo Reel -->
+	<div id="demo-reel">
+	<hr>
+
+		<div class="bottom">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div class="reel"> 
+						<iframe width="560" height="349" src="https://player.vimeo.com/video/475184727"
+							frameborder="0" webksitallowfullscreen mozallowfullscreen allowfullscreen> 
+						</iframe>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	</div>
+	</div> 
+
+	<!-- Custom JavaScript-->
+	<script>
+		$('body').scrollspy({target: '#myNavbar'});
+		$('a[href*="#"]').on('click', function (e) {
+			e.preventDefault();
 		
-		</div>
+			$('html, body').animate({
+				scrollTop: $($(this).attr('href')).offset().top
+			}, 500, 'linear');
+		});
 
-		<div class="outer-wrapper">
-			<div class="row">
-				<div id="img-01">
-					<a href="https://www.slanttstudio.com/" target="_blank"><img src="img/01.png" alt="slantt studio"/></a>
-					<p>slantt studio  /  austin, tx</p>
-				</div>
-				<div id="img-02">
-					<a href="https://momofuku.com/" target="_blank"><img src="img/02.png" alt="momofuku"/></a>
-					<p>chef david chang</p>
-				</div>
-			</div>
+		$("#landing").delay(200).animate({
+			opacity: 1}, 700
+		);
 
-			<div class="row">
-				<div id="img-03">
-					<a href="https://en.wikipedia.org/wiki/The_Sun_Also_Rises" target="_blank"><img src="img/03.png" alt="the sun also rises"/></a>
-				</div>
-				<div id="img-04">
-					<a href="http://www.majamade.com/" target="_blank"><img src="img/04.png" alt="maja made"/></a>
-					<p>majamade  /  portland, or</p>
-				</div>
-				<div id="img-05">
-					<a href="https://www.jeanfrancoiscampos.com/#1" target="_blank"><img src="img/05.png" alt="jean françois campos"/></a>
-					<p>jean françois campos</p>
-				</div>
-			</div>
+		$(".down-arrow").delay(1000).animate({
+			opacity: 0.3}, 700
+		);
 
-			<div class="row">
-				<div id="img-06">
-					<a href="http://www.musee-orangerie.fr/en" target="_blank"><img src="img/06.png" alt="musée de l'orangerie"/></a>
-					<p>musée de l'orangerie  /  paris, france</p>
-				</div>
-				<div id="img-07">
-					<a href="https://en.wikipedia.org/wiki/Just_Kids" target="_blank"><img src="img/07.png" alt="just kids"/></a>
-				</div>
-			</div>
+	</script>
 
-			<div class="row">
-				<div id="img-08">
-					<a href="https://www.poetryfoundation.org/poets/e-e-cummings" target="_blank"><img src="img/08.png" alt="e.e. cummings"/></a>
-				</div>
-				<div id="img-09">
-					<a href="https://en.wikipedia.org/wiki/All_the_Light_We_Cannot_See" target="_blank"><img src="img/09.png" alt="all the light we cannot see"/></a>
-				</div>
-				<div id="img-10">
-					<a href="https://www.instagram.com/emmadmazhari/" target="_blank"><img src="img/10.png" alt="emmad mazhari"/></a>
-					<p>emmad mazhari  / san francisco, ca</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div id="img-11">
-					<a href="http://www.eatingpopos.com/" target="_blank"><img src="img/11.png" alt="eat popos"/></a>
-					<p>eat popos  /  new york city, ny</p>
-				</div>
-				<div id="img-12">
-					<a href="https://themoth.org/podcast" target="_blank"><img src="img/12.png" alt="the moth podcast"/></a>
-				</div>
-			</div>
-
-
-		</div>
-	</div>
-
-
-<body>
--->
-</html>
-
+</body>
 </html>
