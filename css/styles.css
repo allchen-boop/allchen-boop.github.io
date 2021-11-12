@@ -31,7 +31,7 @@ body {
 .interim-body {
   text-align: center; /* for interim */
   max-height: 100vh; /* for interim */
-  background-color: #45AFE2; /* for interim */
+  background-color: #F7C1DC; /* for interim */
   padding: 0 !important; /* for interim */
 }
 
@@ -462,7 +462,7 @@ a {
   #hero h1 {
     font-family: "Lora", serif;
     font-size: 7em;
-    color: #66CCCC;
+    color: #F7C1DC;
     margin: 0 0 1.5% 0;
     font-weight: normal;
     line-height: auto; }
@@ -472,7 +472,7 @@ a {
   #hero p, #hero .body-wrapper li, .body-wrapper #hero li {
     font-family: "Arnhem", serif;
     font-size: 2em;
-    color: #000;
+    color: #6E483C;
     margin: 0 0 6% 0;
     font-weight: normal;
     line-height: 135%; }
@@ -518,7 +518,7 @@ a {
         #hero ul li a:active {
           color: #323232; }
   #hero #circle {
-    background-color: #84BD06;
+    background-color: #F96C3B;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -536,7 +536,7 @@ a {
   #projects h1 {
     font-family: "courier new", sans-serif;
     font-size: 1.8em;
-    color: #000;
+    color: #6E483C;
     margin: auto;
     font-weight: normal;
     line-height: auto;
@@ -546,7 +546,7 @@ a {
     display: inline-block;
     width: 10px;
     height: 30px;
-    background-color: #FFDE71;
+    background-color: #FEC1DF;
     left: -20px;
     top: 10px; }
   #projects .project-button {
@@ -559,14 +559,14 @@ a {
     #projects .project-container h1 {
       font-family: "Helvetica Neue", sans-serif;
       font-size: 3em;
-      color: #000;
+      color: #6E483C;
       margin: 0;
       font-weight: 800;
       line-height: auto; }
     #projects .project-container h2 {
       font-family: "Open Sans", sans-serif;
       font-size: 1.6em;
-      color: #000;
+      color: #6E483C;
       margin: 0 0 3% 0;
       font-weight: 300;
       line-height: auto;
@@ -585,7 +585,7 @@ a {
   #inspiration h1 {
     font-family: "courier new", sans-serif;
     font-size: 1.8em;
-    color: #000;
+    color: #6E483C;
     margin: auto;
     font-weight: normal;
     line-height: auto;
@@ -602,7 +602,7 @@ a {
   #inspiration p, #inspiration .body-wrapper li, .body-wrapper #inspiration li {
     font-family: "courier new", sans-serif;
     font-size: 1.8em;
-    color: #000;
+    color: #6E483C;
     margin: 1% 0 0 0;
     font-weight: normal;
     line-height: auto; }
@@ -712,14 +712,14 @@ a {
   .project h1 {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 5em;
-    color: #000;
+    color: #6E483C;
     margin: 0;
     font-weight: 800;
     line-height: auto; }
   .project h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 2em;
-    color: #000;
+    color: #6E483C;
     margin: 1% 0;
     font-weight: 300;
     line-height: auto;
@@ -742,7 +742,7 @@ a {
   .project p, .project .body-wrapper li, .body-wrapper .project li {
     font-family: "Arnhem", serif;
     font-size: 2em;
-    color: #000;
+    color: #6E483C;
     margin: 4% 0 0 0;
     font-weight: normal;
     line-height: 28px; }
@@ -762,7 +762,7 @@ a {
     display: inline-block;
     font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
-    color: #000;
+    color: #6E483C;
     margin: 0 5% 0 0;
     font-weight: 700;
     line-height: auto;
@@ -776,7 +776,7 @@ a {
 .body-wrapper h3 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 2em;
-  color: #000;
+  color: #6E483C;
   margin: 4% 0 3% 0;
   font-weight: 800;
   line-height: auto;
@@ -786,7 +786,7 @@ a {
 .body-wrapper p, .body-wrapper li {
   font-family: "Arnhem", serif;
   font-size: 2em;
-  color: #000;
+  color: #6E483C;
   margin: 0 0 3% 0;
   font-weight: normal;
   line-height: 1.4em; }
