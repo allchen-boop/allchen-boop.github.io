@@ -34,6 +34,14 @@ body {
   background-color: #45AFE2; /* for interim */
   padding: 0 !important; /* for interim */
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 #interim {
     padding-top: 20%; /* for interim */
 }
