@@ -1,147 +1,202 @@
 <!DOCTYPE html>
-<html>
-<title>Allison Chen</title>
-<meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
-<style>
-body, html {
-  height: 100%;
-  font-family: "Inconsolata", sans-serif;
-}
 
-.bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: url("website.jpg");
-  min-height: 75%;
-}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Anna Wang | UX Designer </title>
 
-.art {
-  display: none;
-}
-</style>
-<body>
+  <!-- METADATA
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="description" content="Work">
+  <meta name="author" content="Anna Wang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-black">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#art" class="w3-button w3-block w3-black">ART</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#code" class="w3-button w3-block w3-black">CODE</a>
-    </div>
-  </div>
-</div>
+  <!-- FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<!-- Header with image -->
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Welcome to my site :)</span>
-  </div>
-  <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
-  </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white"></span>
-  </div>
-</header>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- animsition.css -->
+  <link rel="stylesheet" href="css/animsition.min.css">
 
-<!-- Add a background color and large text to the whole page -->
-<div class="w3-sand w3-grayscale w3-large">
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <!-- animsition.js -->
+   <script src="js/animsition.min.js"></script>
+   <script src="js/scripts.js"></script>
 
-<!-- About Container -->
-<div class="w3-container" id="about">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
-    <p>Hello friends :) I'm Allison and I am currently a junior at the University of Pennsylvania majoring in Digital Media Design and minoring in Fine Arts and English. </p>
-    <p>I am passionate about the intersection of design and tech, finding art through code. My interests lie in computer graphics and animation and UI/UX design.</p>
-    <p>In my free time, I am an avid movie watcher, gym goer, and food eater!</p>
-    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-  </div>
-</div>
+  <!-- Favicon
+  ––––––––––––––––––––––––––––––––––––––––––––––––––
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/> -->
 
-<!-- Art Container -->
-<div class="w3-container" id="art">
-  <div class="w3-content" style="max-width:700px">
- 
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ART</span></h5>
-  
-    <div class="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Eat</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Drink</div>
-      </a>
-    </div>
+</head>
 
-    <div id="Design" class="w3-container art w3-padding-48 w3-card">
-      <h5>Invisible Cities Studies</h5>
-      <p class="w3-text-grey"></p><br>
-    
-      <h5>3D Modeling</h5>
-      <p class="w3-text-grey">Coraline Music Room</p><br>
-    
-      <h5>Icon Study</h5>
-      <p class="w3-text-grey">Plant Power</p><br>
-    
-    </div>
-
-    <div id="Traditional Art" class="w3-container art w3-padding-48 w3-card">
-      <h5>Drive, oil</h5>
-      <p class="w3-text-grey"></p><br>
-    
-      <h5>Walk a Mile, acrylic</h5>
-      <p class="w3-text-grey"></p><br>
-    
-      <h5>Manon, digital</h5>
-      <p class="w3-text-grey"></p><br>
-   
-    </div>  
-    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
-  </div>
-</div>
-  
-  
-<!-- End page content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="Allison <3" target="_blank" class="w3-hover-text-green">allison<3</a></p>
-</footer>
-
-<script>
-// Tabbed Art
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("art");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-}
-document.getElementById("myLink").click();
-</script>
-
+<!-- In PROGRESS
+<body class="interim-body">
+	<div id="interim">
+		<h1>in progress</h1>
+		<img src="img/corgi.gif">
+	</div>
 </body>
+
+-->
+<body class="animsition">
+	<div id="top-bar"></div>
+
+	<div id="hero" class="wrapper">
+		<h1>anna wang</h1>
+		<div class="inner-wrapper">
+			<p>Dedicated to making things simple.</br>
+			I find happiness in meaningful friendships, beautiful things, and a good cup of tea (oh, and corgis).</p>
+			<p>Currently a business technology analyst at Deloitte<span id="circle"></span></p>
+
+			<a href="projects/resume-s2019.pdf" target="_blank"><div class="button">
+				<p>> résumé</p>
+			</div></a>
+			<div  class="button" id="contact-button">
+				<p id="contact-text">> get in touch</p>
+			</div></a>
+		</div>
+
+		<ul>
+			<li><a href="https://www.linkedin.com/in/annaawang/" target="_blank">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-linkedin-square  fa-stack-1x fa-inverse"></i>
+			</a></li>
+
+			<li><a href="https://www.instagram.com/anna_matopoeia/" target="_blank">
+				<span class="fa-stack fa-lg">
+  					<i class="fa fa-circle fa-stack-2x"></i>
+ 					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+			</a></li>
+
+			<li><a href="https://github.com/annaawang" target="_blank">
+				<span class="fa-stack fa-lg">
+  					<i class="fa fa-circle fa-stack-2x"></i>
+ 					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+				</span>
+			</a></li>
+
+			<li><a href="https://medium.com/@annaw" target="_blank">
+				<span class="fa-stack fa-lg">
+  					<i class="fa fa-circle fa-stack-2x"></i>
+ 					<i class="fa fa-medium fa-stack-1x fa-inverse"></i>
+				</span>
+			</a></li>
+		</ul>
+
+	</div>
+
+	<div id="projects" class="wrapper">
+		<div class="yellow-marker"></div>
+		<h1>recent projects</h1>
+
+		<div class="inner-wrapper">
+			<a class="project-button animsition-link" href="projects/the-opportunity-project.html"><div class="project-container">
+				<h1>The Opportunity Project</h1>
+				<h2>U.S. Department of Commerce</h2>
+				<p>Redesign site and introduce user-centered design practices specific to private + public sector collaborations    ></p>
+			</div></a>
+
+			<a class="project-button animsition-link" href="projects/i-america.html"><div class="project-container">
+				<h1>I, America</h1>
+				<h2>Personal Project</h2>
+				<p>Narrate the cultural experiences of second-generation americans through an interactive experience   ></p>
+			</div></a>
+
+			<a class="project-button animsition-link" href="projects/census.html"><div class="project-container">
+				<h1>Census for Small Businesses</h1>
+				<h2>U.S. Census Bureau</h2>
+				<p>Create a user-centered space on census.gov   ></p>
+			</div></a>
+
+			<a class="project-button animsition-link" href="projects/prynt.html"><div class="project-container">
+				<h1>Ecommerce Redesign</h1>
+				<h2>Prynt Co.</h2>
+				<p>Reconceptualize the shop experience to allow for multi-page navigation   ></p>
+			</div></a>
+
+		</div>
+	</div>
+
+	<div id="inspiration">
+		<div class="wrapper">
+			<div class="yellow-marker"></div>
+			<h1>inspiration</h1>
+		</div>
+
+		<div class="outer-wrapper">
+			<div class="row">
+				<div id="img-01">
+					<a href="https://www.slanttstudio.com/" target="_blank"><img src="img/01.png" alt="slantt studio"/></a>
+					<p>slantt studio  /  austin, tx</p>
+				</div>
+				<div id="img-02">
+					<a href="https://momofuku.com/" target="_blank"><img src="img/02.png" alt="momofuku"/></a>
+					<p>chef david chang</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="img-03">
+					<a href="https://en.wikipedia.org/wiki/The_Sun_Also_Rises" target="_blank"><img src="img/03.png" alt="the sun also rises"/></a>
+				</div>
+				<div id="img-04">
+					<a href="http://www.majamade.com/" target="_blank"><img src="img/04.png" alt="maja made"/></a>
+					<p>majamade  /  portland, or</p>
+				</div>
+				<div id="img-05">
+					<a href="https://www.jeanfrancoiscampos.com/#1" target="_blank"><img src="img/05.png" alt="jean françois campos"/></a>
+					<p>jean françois campos</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="img-06">
+					<a href="http://www.musee-orangerie.fr/en" target="_blank"><img src="img/06.png" alt="musée de l'orangerie"/></a>
+					<p>musée de l'orangerie  /  paris, france</p>
+				</div>
+				<div id="img-07">
+					<a href="https://en.wikipedia.org/wiki/Just_Kids" target="_blank"><img src="img/07.png" alt="just kids"/></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="img-08">
+					<a href="https://www.poetryfoundation.org/poets/e-e-cummings" target="_blank"><img src="img/08.png" alt="e.e. cummings"/></a>
+				</div>
+				<div id="img-09">
+					<a href="https://en.wikipedia.org/wiki/All_the_Light_We_Cannot_See" target="_blank"><img src="img/09.png" alt="all the light we cannot see"/></a>
+				</div>
+				<div id="img-10">
+					<a href="https://www.instagram.com/emmadmazhari/" target="_blank"><img src="img/10.png" alt="emmad mazhari"/></a>
+					<p>emmad mazhari  / san francisco, ca</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="img-11">
+					<a href="http://www.eatingpopos.com/" target="_blank"><img src="img/11.png" alt="eat popos"/></a>
+					<p>eat popos  /  new york city, ny</p>
+				</div>
+				<div id="img-12">
+					<a href="https://themoth.org/podcast" target="_blank"><img src="img/12.png" alt="the moth podcast"/></a>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+
+<body>
+-->
+</html>
+
 </html>
