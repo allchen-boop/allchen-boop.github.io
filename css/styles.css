@@ -31,7 +31,7 @@ body {
 .interim-body {
   text-align: center; /* for interim */
   max-height: 100vh; /* for interim */
-  background-color: #F7C1DC; /* for interim */
+  background-color: #45AFE2; /* for interim */
   padding: 0 !important; /* for interim */
 }
 
@@ -42,195 +42,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#interim {<!DOCTYPE html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>ALLISON CHEN</title>
-
-  <!-- METADATA
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="description" content="Work">
-  <meta name="author" content="Allison<3">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONTS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <!-- animsition.css -->
-  <link rel="stylesheet" href="css/animsition.min.css">
-
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-   <!-- jQuery -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-   <!-- animsition.js -->
-   <script src="js/animsition.min.js"></script>
-   <script src="js/scripts.js"></script>
-
-  <!-- Favicon
-  ––––––––––––––––––––––––––––––––––––––––––––––––––
-  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/> -->
-
-</head>
-
-<!-- In PROGRESS
-<body class="interim-body">
-	<div id="interim">
-		<h1>in progress</h1>
-		<img src="img/corgi.gif">
-	</div>
-</body>
-
--->
-<body class="animsition">
-	<div id="top-bar"></div>	
-	<div id="hero" class="wrapper">
-		<h1>allison chen</h1>
-		<div class="inner-wrapper">
-			<img src="icon.png" alt="icon" width="800" height="800" class="center">
-			<p>I'm Allison and I am currently a junior at the University of Pennsylvania majoring in Digital Media Design and minoring in Fine Arts and English. </p>
-    			<p>I am passionate about the intersection of design and tech, finding art through code. My interests lie in computer graphics and animation and UI/UX design.</p>
-    			<p>In my free time, I am an avid movie watcher, gym goer, and food eater!</p>
-			<p>Currently seeking an internship for summer 2022!<span id="circle"></span></p>
-
-			<a href="projects/resume jun fall.pdf" target="_blank"><div class="button">
-				<p>> résumé</p>
-			</div></a>
-			<div  class="button" id="contact-button">
-				<p id="contact-text">> get in touch</p>
-			</div></a>
-		</div>
-
-		<ul>
-			<li><a href="https://www.linkedin.com/in/allchen/" target="_blank">
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-linkedin-square  fa-stack-1x fa-inverse"></i>
-			</a></li>
-
-			<li><a href="https://github.com/allchen-boop" target="_blank">
-				<span class="fa-stack fa-lg">
-  					<i class="fa fa-circle fa-stack-2x"></i>
- 					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-				</span>
-			</a></li>
-		</ul>
-
-	</div>
-
-	<div id="projects" class="wrapper">
-		<div class="yellow-marker"></div>
-		<h1>recent projects</h1>
-
-		<div class="inner-wrapper">
-			<a class="project-button animsition-link" href="projects/the-opportunity-project.html"><div class="project-container">
-				<h1>Mini Minecraft</h1>
-				<h2>C++/OpenGL</h2>
-				<p>Collaborated with two teammates to remake Minecraft   ></p>
-			</div></a>
-
-			<a class="project-button animsition-link" href="projects/i-america.html"><div class="project-container">
-				<h1>Mini Maya</h1>
-				<h2>C++/OpenGL</h2>
-				<p>Remade Autodesk Maya   ></p>
-			</div></a>
-
-			<a class="project-button animsition-link" href="projects/census.html"><div class="project-container">
-				<h1>Census for Small Businesses</h1>
-				<h2>U.S. Census Bureau</h2>
-				<p>Create a user-centered space on census.gov   ></p>
-			</div></a>
-
-			<a class="project-button animsition-link" href="projects/prynt.html"><div class="project-container">
-				<h1>Ecommerce Redesign</h1>
-				<h2>Prynt Co.</h2>
-				<p>Reconceptualize the shop experience to allow for multi-page navigation   ></p>
-			</div></a>
-
-		</div>
-	</div>
-
-	<div id="projects" class="wrapper">
-		<div class="yellow-marker"></div>
-		<h1>art</h1>
-		
-		</div>
-
-		<div class="outer-wrapper">
-			<div class="row">
-				<div id="img-01">
-					<a href="https://www.slanttstudio.com/" target="_blank"><img src="img/01.png" alt="slantt studio"/></a>
-					<p>slantt studio  /  austin, tx</p>
-				</div>
-				<div id="img-02">
-					<a href="https://momofuku.com/" target="_blank"><img src="img/02.png" alt="momofuku"/></a>
-					<p>chef david chang</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div id="img-03">
-					<a href="https://en.wikipedia.org/wiki/The_Sun_Also_Rises" target="_blank"><img src="img/03.png" alt="the sun also rises"/></a>
-				</div>
-				<div id="img-04">
-					<a href="http://www.majamade.com/" target="_blank"><img src="img/04.png" alt="maja made"/></a>
-					<p>majamade  /  portland, or</p>
-				</div>
-				<div id="img-05">
-					<a href="https://www.jeanfrancoiscampos.com/#1" target="_blank"><img src="img/05.png" alt="jean françois campos"/></a>
-					<p>jean françois campos</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div id="img-06">
-					<a href="http://www.musee-orangerie.fr/en" target="_blank"><img src="img/06.png" alt="musée de l'orangerie"/></a>
-					<p>musée de l'orangerie  /  paris, france</p>
-				</div>
-				<div id="img-07">
-					<a href="https://en.wikipedia.org/wiki/Just_Kids" target="_blank"><img src="img/07.png" alt="just kids"/></a>
-				</div>
-			</div>
-
-			<div class="row">
-				<div id="img-08">
-					<a href="https://www.poetryfoundation.org/poets/e-e-cummings" target="_blank"><img src="img/08.png" alt="e.e. cummings"/></a>
-				</div>
-				<div id="img-09">
-					<a href="https://en.wikipedia.org/wiki/All_the_Light_We_Cannot_See" target="_blank"><img src="img/09.png" alt="all the light we cannot see"/></a>
-				</div>
-				<div id="img-10">
-					<a href="https://www.instagram.com/emmadmazhari/" target="_blank"><img src="img/10.png" alt="emmad mazhari"/></a>
-					<p>emmad mazhari  / san francisco, ca</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div id="img-11">
-					<a href="http://www.eatingpopos.com/" target="_blank"><img src="img/11.png" alt="eat popos"/></a>
-					<p>eat popos  /  new york city, ny</p>
-				</div>
-				<div id="img-12">
-					<a href="https://themoth.org/podcast" target="_blank"><img src="img/12.png" alt="the moth podcast"/></a>
-				</div>
-			</div>
-
-
-		</div>
-	</div>
-
-
-<body>
--->
-</html>
-
-</html>
+#interim {
     padding-top: 20%; /* for interim */
 }
 
@@ -650,7 +462,7 @@ a {
   #hero h1 {
     font-family: "Lora", serif;
     font-size: 7em;
-    color: #F7C1DC;
+    color: #66CCCC;
     margin: 0 0 1.5% 0;
     font-weight: normal;
     line-height: auto; }
@@ -660,7 +472,7 @@ a {
   #hero p, #hero .body-wrapper li, .body-wrapper #hero li {
     font-family: "Arnhem", serif;
     font-size: 2em;
-    color: #6E483C;
+    color: #000;
     margin: 0 0 6% 0;
     font-weight: normal;
     line-height: 135%; }
@@ -706,7 +518,7 @@ a {
         #hero ul li a:active {
           color: #323232; }
   #hero #circle {
-    background-color: #F96C3B;
+    background-color: #84BD06;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -724,7 +536,7 @@ a {
   #projects h1 {
     font-family: "courier new", sans-serif;
     font-size: 1.8em;
-    color: #6E483C;
+    color: #000;
     margin: auto;
     font-weight: normal;
     line-height: auto;
@@ -734,7 +546,7 @@ a {
     display: inline-block;
     width: 10px;
     height: 30px;
-    background-color: #FEC1DF;
+    background-color: #FFDE71;
     left: -20px;
     top: 10px; }
   #projects .project-button {
@@ -747,14 +559,14 @@ a {
     #projects .project-container h1 {
       font-family: "Helvetica Neue", sans-serif;
       font-size: 3em;
-      color: #6E483C;
+      color: #000;
       margin: 0;
       font-weight: 800;
       line-height: auto; }
     #projects .project-container h2 {
       font-family: "Open Sans", sans-serif;
       font-size: 1.6em;
-      color: #6E483C;
+      color: #000;
       margin: 0 0 3% 0;
       font-weight: 300;
       line-height: auto;
@@ -773,7 +585,7 @@ a {
   #inspiration h1 {
     font-family: "courier new", sans-serif;
     font-size: 1.8em;
-    color: #6E483C;
+    color: #000;
     margin: auto;
     font-weight: normal;
     line-height: auto;
@@ -790,7 +602,7 @@ a {
   #inspiration p, #inspiration .body-wrapper li, .body-wrapper #inspiration li {
     font-family: "courier new", sans-serif;
     font-size: 1.8em;
-    color: #6E483C;
+    color: #000;
     margin: 1% 0 0 0;
     font-weight: normal;
     line-height: auto; }
@@ -900,14 +712,14 @@ a {
   .project h1 {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 5em;
-    color: #6E483C;
+    color: #000;
     margin: 0;
     font-weight: 800;
     line-height: auto; }
   .project h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 2em;
-    color: #6E483C;
+    color: #000;
     margin: 1% 0;
     font-weight: 300;
     line-height: auto;
@@ -930,7 +742,7 @@ a {
   .project p, .project .body-wrapper li, .body-wrapper .project li {
     font-family: "Arnhem", serif;
     font-size: 2em;
-    color: #6E483C;
+    color: #000;
     margin: 4% 0 0 0;
     font-weight: normal;
     line-height: 28px; }
@@ -950,7 +762,7 @@ a {
     display: inline-block;
     font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
-    color: #6E483C;
+    color: #000;
     margin: 0 5% 0 0;
     font-weight: 700;
     line-height: auto;
@@ -964,7 +776,7 @@ a {
 .body-wrapper h3 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 2em;
-  color: #6E483C;
+  color: #000;
   margin: 4% 0 3% 0;
   font-weight: 800;
   line-height: auto;
@@ -974,7 +786,7 @@ a {
 .body-wrapper p, .body-wrapper li {
   font-family: "Arnhem", serif;
   font-size: 2em;
-  color: #6E483C;
+  color: #000;
   margin: 0 0 3% 0;
   font-weight: normal;
   line-height: 1.4em; }
