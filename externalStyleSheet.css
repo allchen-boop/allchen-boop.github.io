@@ -1,11 +1,11 @@
 .navbar-top {
-	background-color:##aa7089;
+	background-color:#F7CEDD;
 	background-image:none;
 	border:0px;
 }
 
 .navbar-sidebar {
-	background-color:##aa7089;
+	background-color:#F7CEDD;
 	background-image:none;
 	border:0px;
 	height:100%;
@@ -26,7 +26,7 @@
 }
 
 .nav-pills .nav-item .nav-link {
-	color:#795342;
+	color:#573E35;
 	font-family:Gaegu, cursive;
 	font-size:18px;
 	text-align:center;
@@ -38,7 +38,7 @@
 .nav-pills .nav-link.active:hover {
 	color:#fff;
 	cursor:pointer;
-	background-color:#795342
+	background-color:#573E35
 }
 
 @media (max-width:768px) {
@@ -54,13 +54,13 @@
 	}
 
 	.navbar-inverse .navbar-collapse .nav-item .nav-link {
-		color:#795342;
+		color:#573E35;
 		font-family:Gaegu, cursive;
 		font-size:18px;
 	}
 
 	.navbar-inverse .navbar-toggler .nav-item .nav-link {
-		color:#795342;
+		color:#573E35;
 		font-family:Gaegu, cursive;
 		font-size:18px;
 		padding-top:10px;
@@ -234,7 +234,7 @@ button:hover {
 	font-family:Shrikhand, cursive;
 	font-weight:300;
 	text-align:center;
-	color:#aa7089;
+	color:#FDD9E3;
 	margin:0px;
 }
 
@@ -244,7 +244,7 @@ button:hover {
 	margin-right:auto;
 	font-family:Gaegu, cursive;
 	text-align:center;
-	color:#795342;
+	color:#573E35;
 	margin:2vw;
 }
 
@@ -281,7 +281,7 @@ button:hover {
 }
 
 .main .body {
-	background-color:#3c2712;
+	background-color:#FFEFEC;
 }
 
 .menu {
