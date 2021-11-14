@@ -80,11 +80,11 @@
 	}
 
 	.greeting {
-		font-size:40px;
+		font-size:35px;
 	}
 
 	.subtitle {
-		font-size:50px;
+		font-size:35px;
 		margin-top:10px;
 	}
 
@@ -234,7 +234,7 @@ button:hover {
 	font-family:Shrikhand, cursive;
 	font-weight:300;
 	text-align:center;
-	color:#fff;
+	color:#573E35;
 	margin:0px;
 }
 
