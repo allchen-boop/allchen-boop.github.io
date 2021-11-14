@@ -28,7 +28,7 @@
 .nav-pills .nav-item .nav-link {
 	color:#573E35;
 	font-family:Gaegu, cursive;
-	font-size:16px;
+	font-size:18px;
 	text-align:center;
 }
 
@@ -185,7 +185,7 @@
 	}
 
 	.greeting {
-		font-size:5vw;
+		font-size:4vw;
 	}
 
 	.subtitle {
@@ -234,7 +234,7 @@ button:hover {
 	font-family:Shrikhand, cursive;
 	font-weight:300;
 	text-align:center;
-	color:#573E35;
+	color:#FDD9E3;
 	margin:0px;
 }
 
@@ -377,7 +377,7 @@ button:hover {
 p {
 	text-align:left;
 	font-family:Gaegu, cursive;
-	size:12px;
+	size:18px;
 	color:#F7CEDD;
 }
 
