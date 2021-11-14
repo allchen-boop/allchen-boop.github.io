@@ -1,11 +1,11 @@
 .navbar-top {
-	background-color:#F7CEDD;
+	background-color:#87605f;
 	background-image:none;
 	border:0px;
 }
 
 .navbar-sidebar {
-	background-color:#F7CEDD;
+	background-color:#87605f;
 	background-image:none;
 	border:0px;
 	height:100%;
@@ -28,7 +28,7 @@
 .nav-pills .nav-item .nav-link {
 	color:#573E35;
 	font-family:Gaegu, cursive;
-	font-size:18px;
+	font-size:22px;
 	text-align:center;
 }
 
@@ -38,7 +38,7 @@
 .nav-pills .nav-link.active:hover {
 	color:#fff;
 	cursor:pointer;
-	background-color:#573E35
+	background-color:#87605f
 }
 
 @media (max-width:768px) {
@@ -141,8 +141,8 @@
 
 	.bio {
 		text-align:left;
-		font-size:1.4vw;
-		padding-top:3%;
+		font-size:1.7vw;
+		padding-top:1%;
 		margin-left:-5%;
 		margin-right:-5%;
 	}
@@ -281,7 +281,7 @@ button:hover {
 }
 
 .main .body {
-	background-color:#ca8591;
+	background-color:#F2D1DA;
 }
 
 .menu {
