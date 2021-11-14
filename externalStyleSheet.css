@@ -1,11 +1,11 @@
 .navbar-top {
-	background-color:#87605f;
+	background-color:#F7CEDD;
 	background-image:none;
 	border:0px;
 }
 
 .navbar-sidebar {
-	background-color:#87605f;
+	background-color:#F7CEDD;
 	background-image:none;
 	border:0px;
 	height:100%;
@@ -487,10 +487,10 @@ a:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-	background:#ff7fab;
+	background:#F7CEDD;
 	border-radius:2px;
 }
 
 ::-webkit-scrollbar-track {
-	background:#fec5c4;
+	background:#bf7369;
 }
