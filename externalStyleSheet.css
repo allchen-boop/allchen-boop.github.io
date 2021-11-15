@@ -185,7 +185,7 @@
 	}
 
 	.greeting {
-		font-size:3vw;
+		font-size:2.4vw;
 	}
 
 	.subtitle {
@@ -262,7 +262,7 @@ button:hover {
 
 .subtitle .sublink:visited {
 	color:#F7CEDD;
-    text-decoration:none;
+    	text-decoration:none;
 }
 
 .subtitle .sublink:hover {
