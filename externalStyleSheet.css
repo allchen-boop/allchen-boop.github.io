@@ -33,6 +33,7 @@
 .nav-pills .nav-link.active:hover {
 	color:#87605f;
 	cursor:pointer;
+	background-color:#f5c1d4;
 }
 
 @media (max-width:768px) {
