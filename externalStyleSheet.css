@@ -17,7 +17,7 @@
 }
 
 .nav-pills .nav-item .nav-link:hover {
-	color:#fff;
+	color:#87605f;
 }
 
 .nav-pills .nav-link {
@@ -36,7 +36,7 @@
 .nav-pills .nav-link.active,
 .nav-pills .nav-link.active:focus,
 .nav-pills .nav-link.active:hover {
-	color:#fff;
+	color:#87605f;
 	cursor:pointer;
 	background-color:#87605f
 }
@@ -46,7 +46,7 @@
 		display:inline-block;
 	}
 	.navbar-inverse button {
-		color:#fff;
+		color:#87605f;
 		border:0px;
 		outline:0px;
 		margin-top:6px;
@@ -68,11 +68,11 @@
 	}
 
 	.navbar-inverse .navbar-collapse .nav-item .nav-link:hover {
-		color:#fff;
+		color:#87605f;
 	}
 
 	.navbar-inverse .navbar-toggler .nav-item .nav-link:hover {
-		color:#fff;
+		color:#87605f;
 	}
 
 	.title {
@@ -266,7 +266,7 @@ button:hover {
 }
 
 .subtitle .sublink:hover {
-	color:#fff;
+	color:#87605f;
 	text-decoration:none;
 }
 
@@ -378,7 +378,7 @@ p {
 	text-align:left;
 	font-family:Gaegu, cursive;
 	size:18px;
-	color:#87605f;
+	color:#F7CEDD;
 }
 
 .d-md-inline-flex {
